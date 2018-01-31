@@ -1,15 +1,8 @@
-Описание установки и возможностей
+News site
+Description of installation and features
 
-Создать базу 'test' (либо изменить параметры подключения в config->db_params.php)
-и выполнить в нее содержимое install.sql.
+Create the 'test' database (or change the connection settings in config-> db_params.php) and execute the contents of 'install.sql' in it.
 
-Не зарегистрированный пользователь может только смотреть комментарии,
-зарегистрированный - смотреть и добавлять,
-зарегистрированный как админ - смотреть, добавлять и удалять.
-Зарегистрироваться как админ: name = admin, password = adminadmin - по-умолчанию,
-можно поменять значения в кабинете пользователя.
+An unregistered user can only view the comments, registered - watch and add, registered as admin - watch, add and delete. Register as an admin: name = 'admin', password = 'adminadmin' - by default, you can change the values in the user's cabinet.
 
-В админпанель можно зайти по адресу [host]/admin, но с условием, что был выполнен вход под правами админа.
-Все действия в админпанели можно выполнять только залогинившись перед этим как админ.
-В панели админа на главной странице можно добавлять-редактировать и просматривать новости.
-В разделе comments можно смотреть и удалять комментарии.
+You can go to the admin panel at [host] / admin, but with the condition that you have logged in as an admin. All actions in the admin panel can only be performed by logging in as administrator. In the admin panel on the main page, you can add-edit and view news. In the comments section, you can view and delete comments.
